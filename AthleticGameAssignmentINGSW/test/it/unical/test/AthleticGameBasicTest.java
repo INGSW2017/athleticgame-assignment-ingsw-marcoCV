@@ -15,6 +15,7 @@ public class AthleticGameBasicTest {
 	@BeforeClass
 	public static void inizialize() {
 		game = new AthleticGame("calcio");
+		System.out.println("Prima di tutto");
 	}
 
 	@Test
